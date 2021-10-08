@@ -1,6 +1,8 @@
 // на основе https://github.com/gokertanrisever/leaflet-ruler
 // Добавлен сброс по ПКМ, вычисление площади, формат тултипов, форматирование расстояния по разрядам
 
+import L from "leaflet"
+
 L.Control.Ruler = L.Control.extend({
   options: {
     position: "topright",
